@@ -45,14 +45,14 @@ import org.osgi.test.junit5.service.ServiceExtension;
 
 @ExtendWith(BundleContextExtension.class)
 @ExtendWith(ServiceExtension.class)
-public class PlayerTest {
+public class PlayerTest2 {
 
 	static Ball b;
 
 	@InjectBundleContext
 	BundleContext bc;
 
-	public PlayerTest() {
+	public PlayerTest2() {
 		System.out.println();
 	}
 
